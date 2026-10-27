@@ -207,7 +207,7 @@ footer p {
   }
 
   .hero-image {
-    margin-top: 10px;
+    display: none;
   }
 
   .laptop-img {
