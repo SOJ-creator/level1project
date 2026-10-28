@@ -6,14 +6,14 @@
 
 
 body {
-  background: #030817;
-  color: #f5f7ff;
+  background: #02354a;
+  color: #fca311;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
 .navbar {
-  background: #050c1d;
+  background: #219ebc;
   border-bottom: 1px solid #17294c;
   padding: 20px 0;
 }
@@ -21,7 +21,7 @@ body {
 .logo {
   font-size: 2.3rem;
   font-weight: 800;
-  color: #fff;
+  color: #e5e5e5;
 }
 
 .logo span {
@@ -33,12 +33,14 @@ body {
 }
 
 .nav-link {
-  color: #c3d4f2;
+  color: #e5e5e5;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-.nav-link:hover,
+.nav-link:hover{
+
+}
 .nav-link.active {
   color: #0788ff;
 }
@@ -54,7 +56,7 @@ body {
       rgba(0, 73, 210, 0.22),
       transparent 38%
     ),
-    #030817;
+    #023047;
 }
 
 .hero-text {
@@ -69,8 +71,8 @@ body {
   padding: 10px 16px;
   border: 1px solid #244c88;
   border-radius: 30px;
-  background: #09162f;
-  color: #d6e5ff;
+  background: #14213d;
+  color: #e5e5e5;
   font-size: 0.9rem;
   margin-bottom: 28px;
 }
@@ -83,7 +85,7 @@ body {
 }
 
 .intro {
-  color: #0788ff;
+  color: #e5e5e5;
   letter-spacing: 4px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -98,13 +100,13 @@ body {
 .hero h2 {
   font-size: clamp(2.5rem, 4.5vw, 4rem);
   font-weight: 800;
-  color: #087cff;
+  color: #ffffff;
   margin-bottom: 24px;
 }
 
 .description {
   max-width: 520px;
-  color: #b9c9e2;
+  color: #e5e5e5;
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 28px;
@@ -124,9 +126,9 @@ body {
 }
 
 .btn-blue {
-  color: #fff;
-  background: #087cff;
-  border: 1px solid #087cff;
+  color: #e5e5e5;
+  background: #14213d;
+  border: 1px solid #219ebc;
 }
 
 .btn-blue span {
@@ -135,17 +137,17 @@ body {
 
 .btn-blue:hover {
   color: #fff;
-  background: #0065dc;
+  background: #14213d;
   transform: translateY(-3px);
 }
 
 .btn-outline {
-  color: #fff;
+  color: #fca311;
   border: 1px solid #9bb5df;
 }
 
 .btn-outline:hover {
-  color: #fff;
+  color: #e5e5e5;
   background: #122343;
   transform: translateY(-3px);
 }
@@ -160,7 +162,7 @@ body {
   max-width: 600px;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 15px 35px rgba(0, 90, 255, 0.2));
+  filter: drop-shadow(0 15px 35px #14213d);
   position: absolute;
   bottom: 20px;
   left: 800px;
@@ -172,7 +174,7 @@ footer {
   padding: 25px 15px;
   text-align: center;
   color: #9aabc6;
-  border-top: 1px solid #17294c;
+  border-top: 1px solid #14213d;
 }
 
 footer p {
@@ -251,7 +253,7 @@ footer p {
   body{
     /* margin: 0 auto; */
   }
-  .mainte{
+  .maint{
     margin: 0 8px !important;
   }
 }
