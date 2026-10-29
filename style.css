@@ -40,7 +40,8 @@ body {
 }
 
 .nav-link:hover{
-
+color: #0788ff;
+background-color: #023047;
 }
 .nav-link.active {
   color: #0788ff;
