@@ -10,6 +10,7 @@ body {
   color: #fca311;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  margin-left: 20px;
 }
 
 .navbar {
@@ -57,6 +58,8 @@ body {
       transparent 38%
     ),
     #023047;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .hero-text {
@@ -165,7 +168,7 @@ body {
   filter: drop-shadow(0 15px 35px #14213d);
   position: absolute;
   bottom: 20px;
-  left: 800px;
+  left: 600px;
 }
 
 
@@ -208,6 +211,9 @@ footer p {
 
   .hero-image {
     display: none;
+  }
+  body{
+    margin: 0;
   }
 
 }
